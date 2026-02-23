@@ -1,8 +1,17 @@
 {
   "name": "@agent-id/nextjs",
-  "version": "0.1.2",
-  "description": "Agent-ID verifier middleware for Next.js — blocks unauthorized AI agents from your API routes",
-  "keywords": ["agent-id", "bankid", "jwt", "nextjs", "middleware", "ai-agent", "mcp", "bot-detection"],
+  "version": "0.1.3",
+  "description": "AgentID verifier middleware for Next.js — blocks unauthorized AI agents from your API routes",
+  "keywords": [
+    "agent-id",
+    "bankid",
+    "jwt",
+    "nextjs",
+    "middleware",
+    "ai-agent",
+    "mcp",
+    "bot-detection"
+  ],
   "license": "MIT",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -19,7 +28,11 @@
       }
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -46,6 +59,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/agentpass"
+    "url": "https://github.com/sakerhetspolisen/agentid-nextjs"
   }
 }
